@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+
+  <!-- style -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FontStyle -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body>  
+  <div class="container bg">
+    <!-- CartButton -->
+    
+    
+    <!-- Navigation -->
+    <div class="nav">
+      <div class="logo">
+        <a href="/home.html"><img src="./image/logo-social.png" width="15%" height="15%"></a>
+      </div>
+      <ul>
+        <div class="HomeButton">
+          <a href="/home.html"><span class="fas fa-home""></span></a>
+        </div>
+        <div class="ContactButton">
+            
+         <i><a href="/contact.html"><span class="fas fa-user"></span></a></i> 
+        </div>
+
+
+        <div class="cart">
+
+         
+          <i class="fas fa-shopping-cart" id="cart-icon" ></i>
+          
+
+        </div>
+       
+      </ul>
+    </div>
+
+    
+
+
+
+
+    
+  
+  
+  
+  
+  <div class="dashboard-order">
+
+    <h3>Order Menu</h3>
+    <div class="order-address">
+        <p>Address Delivery</p>
+        <h4>123 Chiangmai</h4>
+    </div>
+    <div class="order-time">
+      <span class="fas fa-clock"></span> 30 mins <span class="fas fa-map-marker-alt"> 2 km</span>
+  </div>
+
+  <div class="order-wrapper">
+
+    <div class="order-card">
+      <img class="order-image" src="/image/pizza.jpg">
+      <div class="order-detail">
+        <p>Pizza</p>
+        <i class="fas fa-times"></i> <input type="text" value="1">
+      </div>
+      <h4 class="order-price"> $35 </h4>
+    </div>
+
+    <div class="order-card">
+      <img class="order-image" src="/image/burger.jpg">
+      <div class="order-detail">
+        <p>Burger</p>
+        <i class="fas fa-times"></i> <input type="text" value="1">
+      </div>
+      <h4 class="order-price"> $20 </h4>
+    </div>
+
+    <div class="order-card">
+      <img class="order-image" src="/image/burger.jpg">
+      <div class="order-detail">
+        <p>Burger</p>
+        <i class="fas fa-times"></i> <input type="text" value="1">
+      </div>
+      <h4 class="order-price"> $20 </h4>
+    </div>
+
+    <div class="order-card">
+      <img class="order-image" src="/image/burger.jpg">
+      <div class="order-detail">
+        <p>Burger</p>
+        <i class="fas fa-times"></i> <input type="text" value="1">
+      </div>
+      <h4 class="order-price"> $20 </h4>
+    </div>
+  </div>
+
+  <hr class="divider">
+    <div class="order-total">
+      <p>Subtotal <span> $100 </span></p>
+      <p>Tax (50%) <span> $50 </span></p>
+      <p>Delivery Fee <span> $10 </span></p>
+
+      <div class="oder-promo">
+        <input class="input-promo" type="text" placeholder="Apply Voucher">
+        <button class="button-promo">Find Promo</button>
+      </div>
+      <hr class="divider">
+      <p>Total <span> $160 </span></p>
+    </div>
+  <button class="checkout">
+    Checkout
+  </button>
+  <!--  Close cart-->
+  <i class="fas fa-times" id="close-cart"></i>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+</div>
+ 
+<script src="main.js"></script>
+</body>
+</html>
